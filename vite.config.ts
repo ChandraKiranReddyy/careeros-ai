@@ -2,7 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
+// GitHub Pages project site: https://chandrakiranreddyy.github.io/careeros-ai/
 export default defineConfig({
+  base: '/careeros-ai/',
   plugins: [react(), tailwindcss()],
   server: {
     proxy: {
